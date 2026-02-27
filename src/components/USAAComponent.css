@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.usaa-container {
+  background-color: #0b2447;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.usaa-header {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.usaa-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.usaa-main {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 40px;
+}
+
+.new-to-usaa {
+  max-width: 400px;
+}
+
+.new-to-usaa h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.new-to-usaa p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.join-usaa-button {
+  background-color: white;
+  color: #0b2447;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.log-on {
+  background-color: white;
+  color: #0b2447;
+  padding: 30px 20px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.log-on h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #0b2447;
+}
+
+.log-on-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-size: 14px;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #0b2447;
+  border-radius: 5px;
+}
+
+.next-button {
+  background-color: #4a6e3e;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.help-link {
+  color: #0b2447;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
